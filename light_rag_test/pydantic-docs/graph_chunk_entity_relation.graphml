@@ -1,0 +1,502 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d9" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d8" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d7" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d6" for="edge" attr.name="description" attr.type="string"/>
+<key id="d5" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="PydanticAI">
+  <data key="d0">PydanticAI</data>
+  <data key="d1">organization</data>
+  <data key="d2">PydanticAI is a Python agent framework designed to facilitate the development of production-grade applications utilizing Generative AI.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Agents">
+  <data key="d0">Agents</data>
+  <data key="d1">category</data>
+  <data key="d2">Agents are one of the core concepts in PydanticAI, representing components that assist in building applications.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Common Tools">
+  <data key="d0">Common Tools</data>
+  <data key="d1">category</data>
+  <data key="d2">Common Tools are features within PydanticAI that provide essential functionalities for application development.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Dependencies">
+  <data key="d0">Dependencies</data>
+  <data key="d1">category</data>
+  <data key="d2">Dependencies in PydanticAI refer to the required elements that enable the framework's components to work together.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Messages and chat history">
+  <data key="d0">Messages and chat history</data>
+  <data key="d1">category</data>
+  <data key="d2">Messages and chat history is a feature in PydanticAI that focuses on managing communication within applications.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Multi-agent Applications">
+  <data key="d0">Multi-agent Applications</data>
+  <data key="d1">category</data>
+  <data key="d2">Multi-agent Applications refers to applications that utilize multiple agents working collaboratively.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Function Tools">
+  <data key="d0">Function Tools</data>
+  <data key="d1">category</data>
+  <data key="d2">Function Tools are various tools included in PydanticAI to enhance its functionalities.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Model Providers">
+  <data key="d0">Model Providers</data>
+  <data key="d1">category</data>
+  <data key="d2">Model Providers represent various sources of AI models integrated into PydanticAI.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Anthropic">
+  <data key="d0">Anthropic</data>
+  <data key="d1">category</data>
+  <data key="d2">Anthropic is a specific provider of AI models that can be utilized within PydanticAI.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Bedrock">
+  <data key="d0">Bedrock</data>
+  <data key="d1">category</data>
+  <data key="d2">Bedrock is another model provider integrated into the PydanticAI framework.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Cohere">
+  <data key="d0">Cohere</data>
+  <data key="d1">category</data>
+  <data key="d2">Cohere offers AI models that can be used within PydanticAI for different applications.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Gemini">
+  <data key="d0">Gemini</data>
+  <data key="d1">category</data>
+  <data key="d2">Gemini provides additional AI models for integration in PydanticAI applications.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Google">
+  <data key="d0">Google</data>
+  <data key="d1">category</data>
+  <data key="d2">Google's models are accessible and can be utilized within the PydanticAI framework.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Groq">
+  <data key="d0">Groq</data>
+  <data key="d1">category</data>
+  <data key="d2">Groq is also a model provider featured in PydanticAI.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Mistral">
+  <data key="d0">Mistral</data>
+  <data key="d1">category</data>
+  <data key="d2">Mistral represents yet another AI model provider integrated within PydanticAI.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="OpenAI">
+  <data key="d0">OpenAI</data>
+  <data key="d1">category</data>
+  <data key="d2">OpenAI is a prominent model provider included in the PydanticAI framework.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Graphs">
+  <data key="d0">Graphs</data>
+  <data key="d1">category</data>
+  <data key="d2">Graphs in PydanticAI refer to the feature related to representation and manipulation of data structures.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Evals">
+  <data key="d0">Evals</data>
+  <data key="d1">category</data>
+  <data key="d2">Evals refers to the evaluation components within PydanticAI for testing functionality.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="MCP">
+  <data key="d0">MCP</data>
+  <data key="d1">category</data>
+  <data key="d2">Model Context Protocol (MCP) is a structured approach within PydanticAI for managing context in conversations.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Client">
+  <data key="d0">Client</data>
+  <data key="d1">category</data>
+  <data key="d2">The Client refers to the component in PydanticAI that interacts with users or other systems.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="MCP Run Python">
+  <data key="d0">MCP Run Python</data>
+  <data key="d1">category</data>
+  <data key="d2">MCP Run Python is a feature for executing Python scripts within the MCP framework.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Server">
+  <data key="d0">Server</data>
+  <data key="d1">category</data>
+  <data key="d2">The Server is part of the infrastructure necessary for hosting the PydanticAI framework.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Command Line Interface (CLI)">
+  <data key="d0">Command Line Interface (CLI)</data>
+  <data key="d1">category</data>
+  <data key="d2">The Command Line Interface (CLI) in PydanticAI provides a way to interact with the framework through commands.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Debugging and Monitoring">
+  <data key="d0">Debugging and Monitoring</data>
+  <data key="d1">category</data>
+  <data key="d2">Debugging and Monitoring tools are features in PydanticAI that help in maintaining application stability.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Unit Testing">
+  <data key="d0">Unit Testing</data>
+  <data key="d1">category</data>
+  <data key="d2">Unit Testing features in PydanticAI are designed to ensure the reliability of the code.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Examples">
+  <data key="d0">Examples</data>
+  <data key="d1">category</data>
+  <data key="d2">Examples in PydanticAI provide use cases and templates for developers working with the framework.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Bank Support">
+  <data key="d0">Bank Support</data>
+  <data key="d1">category</data>
+  <data key="d2">Bank Support represents a specific example providing guidance on integrating banking functionalities with PydanticAI.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Chat App with FastAPI">
+  <data key="d0">Chat App with FastAPI</data>
+  <data key="d1">category</data>
+  <data key="d2">The Chat App with FastAPI is an example application demonstrating how to use PydanticAI with FastAPI.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Flight Booking">
+  <data key="d0">Flight Booking</data>
+  <data key="d1">category</data>
+  <data key="d2">Flight Booking is an illustrative example of functionalities that can be built using PydanticAI.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Pydantic Model">
+  <data key="d0">Pydantic Model</data>
+  <data key="d1">category</data>
+  <data key="d2">The Pydantic Model is an exemplary representation of how to structure data within PydanticAI.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Question Graph">
+  <data key="d0">Question Graph</data>
+  <data key="d1">category</data>
+  <data key="d2">The Question Graph example shows how to manage data structures related to querying within PydanticAI.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="RAG">
+  <data key="d0">RAG</data>
+  <data key="d1">category</data>
+  <data key="d2">RAG stands for Retrieval-Augmented Generation, a functionality that can be implemented through PydanticAI.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="SQL Generation">
+  <data key="d0">SQL Generation</data>
+  <data key="d1">category</data>
+  <data key="d2">SQL Generation refers to capabilities in PydanticAI for automating database query creation.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Stream Markdown">
+  <data key="d0">Stream Markdown</data>
+  <data key="d1">category</data>
+  <data key="d2">Stream Markdown is an example illustrating how to process and display Markdown content using PydanticAI.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Stream Whales">
+  <data key="d0">Stream Whales</data>
+  <data key="d1">category</data>
+  <data key="d2">Stream Whales serves as an example of real-time data processing within PydanticAI.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Weather Agent">
+  <data key="d0">Weather Agent</data>
+  <data key="d1">category</data>
+  <data key="d2">Weather Agent is an illustrative application that obtains and processes weather data using PydanticAI.</data>
+  <data key="d3">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<edge source="PydanticAI" target="Agents">
+  <data key="d5">18.0</data>
+  <data key="d6">PydanticAI includes Agents as a core concept that assists in building applications using Generative AI.</data>
+  <data key="d7">application framework, core concepts</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PydanticAI" target="Common Tools">
+  <data key="d5">16.0</data>
+  <data key="d6">PydanticAI offers Common Tools to enhance the development of applications.</data>
+  <data key="d7">development tools, application features</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PydanticAI" target="Dependencies">
+  <data key="d5">18.0</data>
+  <data key="d6">Dependencies are essential components that allow PydanticAI functionalities to operate together.</data>
+  <data key="d7">framework functionality, integrated components</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PydanticAI" target="Messages and chat history">
+  <data key="d5">16.0</data>
+  <data key="d6">Messages and chat history functionality is essential for communication management in PydanticAI applications.</data>
+  <data key="d7">communication management, application features</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PydanticAI" target="Multi-agent Applications">
+  <data key="d5">18.0</data>
+  <data key="d6">Multi-agent Applications illustrate the capability of PydanticAI to handle multiple agents collaboratively.</data>
+  <data key="d7">collaboration, application capabilities</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PydanticAI" target="Function Tools">
+  <data key="d5">16.0</data>
+  <data key="d6">Function Tools enhance the overall capability and productivity of applications developed with PydanticAI.</data>
+  <data key="d7">productivity tools, application efficiency</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PydanticAI" target="Model Providers">
+  <data key="d5">18.0</data>
+  <data key="d6">PydanticAI integrates Model Providers, allowing access to different AI models for various applications.</data>
+  <data key="d7">model integration, AI capabilities</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PydanticAI" target="Graphs">
+  <data key="d5">18.0</data>
+  <data key="d6">Graphs is a feature that demonstrates how PydanticAI manages complex data relationships.</data>
+  <data key="d7">data representation, framework capabilities</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PydanticAI" target="Evals">
+  <data key="d5">18.0</data>
+  <data key="d6">Evals are important for ensuring the correctness and efficiency of applications built on PydanticAI.</data>
+  <data key="d7">testing and evaluation, framework capabilities</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PydanticAI" target="MCP">
+  <data key="d5">18.0</data>
+  <data key="d6">MCP is an integral protocol in PydanticAI for managing contextual information during interactions.</data>
+  <data key="d7">context management, framework capabilities</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PydanticAI" target="Command Line Interface (CLI)">
+  <data key="d5">16.0</data>
+  <data key="d6">The CLI provides a method of interacting with PydanticAI through command-based inputs.</data>
+  <data key="d7">user interface, application interaction</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PydanticAI" target="Debugging and Monitoring">
+  <data key="d5">16.0</data>
+  <data key="d6">Debugging and Monitoring tools help maintain application performance and stability in PydanticAI.</data>
+  <data key="d7">maintenance tools, application performance</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PydanticAI" target="Unit Testing">
+  <data key="d5">18.0</data>
+  <data key="d6">Unit Testing is crucial for verifying the reliability of applications built with PydanticAI.</data>
+  <data key="d7">reliability, testing&lt;SEP&gt;reliability, testing"&lt;</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PydanticAI" target="Examples">
+  <data key="d5">18.0</data>
+  <data key="d6">Examples provide practical contexts and insights for users working with PydanticAI.</data>
+  <data key="d7">guide, practical application</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Model Providers" target="Anthropic">
+  <data key="d5">14.0</data>
+  <data key="d6">Anthropic is a specific provider within the broader category of Model Providers in PydanticAI.</data>
+  <data key="d7">model sourcing, AI capabilities</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Model Providers" target="Bedrock">
+  <data key="d5">14.0</data>
+  <data key="d6">Bedrock serves as one of the integrated Model Providers within PydanticAI for application use.</data>
+  <data key="d7">model sourcing, AI capabilities</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Model Providers" target="Cohere">
+  <data key="d5">14.0</data>
+  <data key="d6">Cohere is listed as a model provider demonstrating the versatility of PydanticAI in integrating AI models.</data>
+  <data key="d7">model sourcing, AI capabilities</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Model Providers" target="Gemini">
+  <data key="d5">14.0</data>
+  <data key="d6">Gemini contributes to the options available for AI model selection in PydanticAI.</data>
+  <data key="d7">model sourcing, AI capabilities</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Model Providers" target="Google">
+  <data key="d5">14.0</data>
+  <data key="d6">Google enhances the range of AI model choices available in PydanticAI applications.</data>
+  <data key="d7">model sourcing, AI capabilities</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Model Providers" target="Groq">
+  <data key="d5">14.0</data>
+  <data key="d6">Groq provides additional model options within the context of using PydanticAI.</data>
+  <data key="d7">model sourcing, AI capabilities</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Model Providers" target="Mistral">
+  <data key="d5">14.0</data>
+  <data key="d6">Mistral adds another layer to the diversity of AI models integrated into PydanticAI.</data>
+  <data key="d7">model sourcing, AI capabilities</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Model Providers" target="OpenAI">
+  <data key="d5">16.0</data>
+  <data key="d6">OpenAI is a prominent model provider integrated into the PydanticAI framework, broadening its functionality.</data>
+  <data key="d7">model sourcing, AI capabilities</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MCP" target="Client">
+  <data key="d5">16.0</data>
+  <data key="d6">The Client interacts with the MCP to facilitate user communication in PydanticAI.</data>
+  <data key="d7">user interaction, communication management</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MCP" target="MCP Run Python">
+  <data key="d5">16.0</data>
+  <data key="d6">MCP Run Python allows for the execution of scripts, functioning under MCP protocols.</data>
+  <data key="d7">script execution, framework functionality</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Examples" target="Bank Support">
+  <data key="d5">16.0</data>
+  <data key="d6">Bank Support serves as a specific example meant to illustrate integrating banking features with PydanticAI.</data>
+  <data key="d7">use case, application guidance</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Examples" target="Chat App with FastAPI">
+  <data key="d5">16.0</data>
+  <data key="d6">The Chat App with FastAPI is an example showing application capabilities of PydanticAI in real-time chat.</data>
+  <data key="d7">application demonstration, real-time functionality</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Examples" target="Flight Booking">
+  <data key="d5">16.0</data>
+  <data key="d6">Flight Booking exemplifies the type of applications that can be built using the PydanticAI framework.</data>
+  <data key="d7">use case, application guidance</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Examples" target="Pydantic Model">
+  <data key="d5">18.0</data>
+  <data key="d6">Pydantic Model serves as an example of structuring data effectively within the framework.</data>
+  <data key="d7">data management, framework guidance</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Examples" target="Question Graph">
+  <data key="d5">16.0</data>
+  <data key="d6">Question Graph illustrates data management within PydanticAI for inquiry scenarios.</data>
+  <data key="d7">use case, data representation</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Examples" target="RAG">
+  <data key="d5">18.0</data>
+  <data key="d6">RAG is an example demonstrating how to implement Retrieval-Augmented Generation within the framework.</data>
+  <data key="d7">use case, advanced features</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Examples" target="SQL Generation">
+  <data key="d5">18.0</data>
+  <data key="d6">SQL Generation is showcased as a method of automating query creation within PydanticAI.</data>
+  <data key="d7">use case, automation</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Examples" target="Stream Markdown">
+  <data key="d5">16.0</data>
+  <data key="d6">Stream Markdown exemplifies processing text and data within PydanticAI applications.</data>
+  <data key="d7">use case, data processing</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Examples" target="Stream Whales">
+  <data key="d5">18.0</data>
+  <data key="d6">Stream Whales serves as an example of real-time data handling within the framework.</data>
+  <data key="d7">use case, real-time processing</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Examples" target="Weather Agent">
+  <data key="d5">18.0</data>
+  <data key="d6">Weather Agent exemplifies how to work with external APIs to fetch weather data in PydanticAI.</data>
+  <data key="d7">use case, API integration</data>
+  <data key="d8">chunk-3bd464f6270793964e56215210e2d32b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+</graph></graphml>
