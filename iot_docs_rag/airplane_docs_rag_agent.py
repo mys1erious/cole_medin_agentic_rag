@@ -220,4 +220,65 @@ async def get_section_content(ctx: RunContext[AirplaneDocsDeps], document_name: 
 
     except Exception as e:
         print(f"Error retrieving section content: {e}")
-        return f"Error retrieving section content: {str(e)}" 
+        return f"Error retrieving section content: {str(e)}"
+
+
+@airplane_docs_expert.tool
+async def get_document_content(ctx: RunContext[AirplaneDocsDeps], document_name: str) -> str:
+    """
+    Retrieve the full content of an entire aircraft document.
+
+    Args:
+        ctx: The context including the Supabase client
+        document_name: The name of the document to retrieve
+
+    Returns:
+        str: The complete content of the requested document, limited to 20000 characters
+    """
+    try:
+        # Query Supabase for all chunks of this document, ordered by chunk_number
+        result = (
+            ctx.deps.supabase.from_("airplane_docs")
+            .select("title, content, chunk_number, chapter_name")
+            .eq("document_name", document_name)
+            .order("chunk_number")
+            .execute()
+        )
+
+        if not result.data:
+            return f"No content found for document '{document_name}'"
+
+        # Group content by chapters
+        chapters = {}
+        for chunk in result.data:
+            chapter_name = chunk["chapter_name"]
+            if chapter_name not in chapters:
+                chapters[chapter_name] = {
+                    "title": chunk["title"],
+                    "content": []
+                }
+            chapters[chapter_name]["content"].append(chunk["content"])
+
+        # Format the document with its chapters
+        formatted_document = [f"# Document: {document_name}\n"]
+
+        # Add each chapter with its content
+        for chapter_name, chapter_data in chapters.items():
+            formatted_document.append(f"## {chapter_name}")
+            formatted_document.append("\n".join(chapter_data["content"]))
+            formatted_document.append("\n")
+
+        # Join everything together
+        full_document = "\n\n".join(formatted_document)
+        
+        # Check if document exceeds the character limit
+        if len(full_document) > 20000:
+            truncated_document = full_document[:20000]
+            truncated_document += "\n\nDocument is too big, reading only first 20000 characters"
+            return truncated_document
+        
+        return full_document
+
+    except Exception as e:
+        print(f"Error retrieving document content: {e}")
+        return f"Error retrieving document content: {str(e)}" 
