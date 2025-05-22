@@ -101,6 +101,8 @@ dependencies = [
     "pydantic-settings==2.8.1",
     "pydeck==0.9.1",
     "pygments==2.19.1",
+    "pymupdf>=1.25.5",
+    "pymupdf4llm>=0.0.24",
     "pynndescent==0.5.13",
     "pyparsing==3.2.3",
     "python-dateutil==2.9.0.post0",
